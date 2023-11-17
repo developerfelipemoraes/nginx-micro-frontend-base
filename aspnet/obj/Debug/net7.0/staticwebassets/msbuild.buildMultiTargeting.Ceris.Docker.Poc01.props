@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Ceris.Docker.Poc01.props" />
+</Project>

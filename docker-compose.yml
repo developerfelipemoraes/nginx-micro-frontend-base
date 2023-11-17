@@ -1,0 +1,40 @@
+
+version: "3.8"
+services:
+  app-angular:
+    container_name: app-angular
+    build:
+      context: ./angular
+
+  app-react:
+    container_name: app-react
+    build:
+      context: ./rreact
+
+  app-vue:
+    container_name: app-vue
+    build:
+      context: ./vue
+  
+  app-aspnet:
+    container_name: app-aspnet
+    build:
+      context: ./aspnet
+
+  app-blazor:
+    container_name: app-blazor
+    build:
+      context: ./blazor
+
+  orchestrator:
+    container_name: orchestrator
+    ports:
+      - 80:80
+    depends_on:
+      - app-react
+      - app-vue
+      - app-angular
+      - app-aspnet
+      - app-blazor
+    build:
+      context: .

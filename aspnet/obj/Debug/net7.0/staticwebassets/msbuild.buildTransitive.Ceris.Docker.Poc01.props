@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Ceris.Docker.Poc01.props" />
+</Project>
