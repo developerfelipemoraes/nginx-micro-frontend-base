@@ -26,6 +26,11 @@ services:
     build:
       context: ./blazor
 
+  app-main-container:
+    container_name: app-main-container
+    build:
+      context: ./bootstrap
+
   orchestrator:
     container_name: orchestrator
     ports:
