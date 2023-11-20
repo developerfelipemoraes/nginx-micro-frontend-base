@@ -34,7 +34,7 @@ services:
   orchestrator:
     container_name: orchestrator
     ports:
-      - 80:80
+      - 8082:8082
     depends_on:
       - app-react
       - app-vue
