@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lFtgIuCCR945nSbU0aE3Cz0PkIWh+L3QPxTzm1bj5xV6fW+bOSzJUIJdrcX9MIF4jjNhlwRN5SSY6nBAfC+k9w==",
+  "dgSpecHash": "PVuZPT4G1N/G8J2zemmVqEhLIWZfDfRitV6A1VBIM1QvrLrV2kVDRBeZO0a1QAhb2tN/dFfgzcPA0CP90LKk+Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\felip\\source\\repos\\ceris\\micro-frontend\\ceris-poc\\nginx\\nginx-dotnetcore-example-master\\app\\Ceris.Docker.Poc01.csproj",
+  "projectFilePath": "C:\\Users\\felip\\source\\repos\\ceris\\poc\\nginx-micro-frontend-base\\aspnet\\Ceris.Docker.Poc01.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\felip\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.4\\microsoft.visualstudio.azure.containers.tools.targets.1.19.4.nupkg.sha512"
   ],
